@@ -47,7 +47,7 @@ def main():
     #step 2
     yondu_cash = remaining_units * .13
     yondus = int(yondu_cash // 1)
-    print("Yondu's share:", yondus)
+    #print("Yondu's share:", (yondus + yondu_crewcut))
 
     remaining_units = remaining_units-yondus
     #print("remaining_units:", remaining_units)
@@ -55,7 +55,6 @@ def main():
     #step 3
     peter_quill_cash = remaining_units * .11
     peter = int(peter_quill_cash // 1)
-    print("Peter's share:", peter)
 
     remaining_units = remaining_units-peter
     #print("remaining_units:", remaining_units)
@@ -65,6 +64,8 @@ def main():
     #print("crew_pay_cash", crew_pay_cash)
 
     crew_pay_int = int(crew_pay_cash // 1)
+    print("Yondu's share:", yondus + crew_pay_int)
+    print("Peter's share:", peter + crew_pay_int)
     print("each crew:", crew_pay_int)
 
     rbf= remaining_units % reavers
