@@ -6,6 +6,8 @@ Course: CS1400-002
 
 Put your description here, lessons learned here, and any other information someone using your
 program would need to know to make it run.
+
+github: https://github.com/k8maravilla/Yondu/blob/master/main.py
 '''
 
 def main():
