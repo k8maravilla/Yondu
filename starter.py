@@ -1,8 +1,8 @@
 '''
-Project Name: 
-Author: 
-Due Date: MM/DD/YYYY
-Course: CS1400-zzz
+Project Name: Yondu Udonta
+Author: Kaleb Maravilla
+Due Date: 01/20/2023
+Course: CS1400-002
 
 Put your description here, lessons learned here, and any other information someone using your
 program would need to know to make it run.
