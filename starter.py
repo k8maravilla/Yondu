@@ -68,7 +68,7 @@ def main():
     crew_pay_int = int(crew_pay_cash // 1)
     print("Yondu's share:", yondus + crew_pay_int)
     print("Peter's share:", peter + crew_pay_int)
-    print("each crew:", crew_pay_int)
+    print("Crew:", crew_pay_int)
 
     rbf= remaining_units % reavers
     print("RBF:", rbf)
