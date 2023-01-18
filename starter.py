@@ -41,7 +41,7 @@ def main():
     peter_quill_crew = 2
 
     shore_leave = (reavers-peter_quill_crew) * 3
-    print("shore leave:", shore_leave)
+    #print("shore leave:", shore_leave)
 
     remaining_units = (units - shore_leave)
     #print("remaining_units:", remaining_units)
